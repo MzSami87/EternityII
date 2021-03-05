@@ -162,9 +162,9 @@ footer a {
     height:auto;
   }
   footer {
-    display: inline-block;
+    display: block;
     text-align: center;
-    line-height: 1.25;
+    line-height: 1;
   }
   footer p {
     display: inline-block;

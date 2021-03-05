@@ -130,12 +130,17 @@ footer a {
   p {
     margin: 50px;
   }
-  footer {
+  /* footer {
     display: flex;
     text-align: center;
     line-height: 1.25;
     width: 100%;
-  }
+  } */
+  footer {
+    display: block;
+    text-align: center;
+    line-height: 1;
+}
   footer p {
     display: inline-block;
   }
@@ -158,5 +163,8 @@ footer a {
     margin: 0;
     width: 25%;
     align-content: flex-start;
+  }
+  p {
+    font-size: 23px;
   }
 }

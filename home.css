@@ -130,6 +130,9 @@ footer a {
     list-style-type: none;
     display: grid;
   }
+  p{
+    font-size: 15px;
+  }
   nav {
     line-height: 2;
   }

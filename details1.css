@@ -101,6 +101,11 @@ footer a {
     list-style-type: none;
     display: grid;
   }
+  h1 {
+    font-size:60px;
+    margin-bottom:20px;
+  }
+
   p {
     margin-bottom: 100px;
   }

@@ -73,10 +73,16 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    font-size:60px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
   footer {
     display: inline-block;
     text-align: center;
     line-height: 1.25;
+    /* width:auto; */
   }
   footer p {
     display: inline-block;
@@ -86,4 +92,20 @@ footer {
     margin: 0;
     width: 100%;
   }
+  .carousel-inner > .item > img {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .carousel {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .carousel-inner img {
+    margin: auto;
+  }
+  .d-none {
+    display: block!important;
+    }
 }

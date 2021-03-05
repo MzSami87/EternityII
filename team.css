@@ -172,7 +172,7 @@ p {
     display: inline-block;
     text-align: center;
     line-height: 1.25;
-    /* width: 100%; */
+    width: 100%;
   }
   footer p {
     display: inline;
@@ -212,6 +212,7 @@ p {
   p {
     display: contents;
     text-align: -webkit-center;
+    font-size:23px;
   }
   footer {
     display: flex;
@@ -219,10 +220,20 @@ p {
     line-height: 1.25;
     width: 100%;
   }
+  footer a {
+    display: contents;
+    font-size: 19px;
+  }
   .column {
     display: block;
     margin: 0;
     width: 25%;
     align-content: flex-start;
+  }
+  address {
+    line-height: 1;
+  }
+  footer {
+    line-height: .6;
   }
 }
