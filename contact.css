@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(203, 236, 218, 1.2);
+}
+
+.menu {
+  background-color: #ecfdf4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: #808080;
+  text-shadow: 2px 2px 2px white;
+}
+
+.container {
+  background-image: url("images/contact.png");
+  opacity: 0.5;
+  height: 40%;
+  width: 40%;
+  margin: 0 20% 0 20%;
+  text-shadow: 5px 5px 20px black;
+  padding: 30px 0 30px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+}
+
+form {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: snow;
+}
+
+label {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+}
+
+.subtext {
+  font-size: 12px;
+}
+
+input,
+select,
+textarea {
+  width: 80%;
+  height: 50%;
+  padding: 12px 20px;
+  border: none;
+  box-shadow: 0px 5px 6px;
+}
+
+#comment {
+  height: 200px;
+}
+
+
+input[type="submit"] {
+  margin-top: 30px;
+  background-color: #808080;
+  color: #ecfdf4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+input[type="comment"] {
+  height: 200px;
+  width: 600px;
+}
+
+button {
+  width: 15%;
+  height: 50%;
+  padding: 12px 20px;
+  color: #808080;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  background-image: url('images/moving_kitchenbox.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-color: #b3b2b2;
+text-align: center;
+  margin-top: 200px;
+  color: snow;
+  text-shadow: 2px 2px 2px gray;
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: snow;
+  text-shadow: 2px 2px 2px slategrey;
+}
+
+footer a {
+  color: snow;
+  text-shadow: 3px 3px 5px grey;
+}
+
+.column {
+  display: block;
+  margin-left: 100px;
+  width: 50%;
+  align-content: flex-start;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style-type: none;
+    display: grid;
+    margin: 0;
+  }
+  nav {
+    line-height: 2;
+    display: block;
+  }
+  .container {
+    width: auto;
+    height:auto;
+  }
+  footer {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.25;
+  }
+  footer p {
+    display: inline-block;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .container {
+    width: 80%;
+  }
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.05;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}

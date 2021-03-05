@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  background-color: #cfffe5;
+  background-image: url("../Eternity/images/landing_house.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  mix-blend-mode: overlay;
+}
+
+.name {
+  font-family: "Alex Brush", cursive;
+  font-size: 120px;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-top:-10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 80px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Alex Brush", cursive;
+  color: white;
+  font-size: 45px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+@media screen and (max-width: 1100px) {
+  img {
+    margin-top: 100px;
+    width: 30;
+    height: 700px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  html {
+    height: auto;
+    width: auto;
+    background-color: #cfffe5;
+    background-image: url('images/landing_house.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    overflow: auto;
+  }
+  img {
+    margin-top: 100px;
+    width: 30;
+    padding: 5px;
+    display: flex;
+    height: 200px;
+  }
+  .name {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  html {
+    height: 100%;
+    width: auto;
+    background-color: #cfffe5;
+    background-image: url(../Eternity/images/landing_house.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    overflow: auto;
+  }
+  img {
+    height: 200px;
+    width: auto;
+  }
+  h3,
+  a {
+    margin-top:300px;
+  }
+}

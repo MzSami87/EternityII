@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(203, 236, 218, 1.2);
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  background-color: #ecfdf4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: #808080;
+  text-shadow: 2px 2px 2px white;
+}
+
+.glass {
+  text-shadow: 2px 2px 2px gray;
+  color:snow;
+  background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  background-image: url('images/moving_kitchenbox.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-color: #b3b2b2;
+  margin-top: 200px;
+  color: snow;
+  text-shadow: 2px 2px 2px gray;
+  flex-wrap: wrap;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  color: black;
+  text-shadow: 2px 2px 2px antiquewhite;
+  display: inline-block;
+}
+
+footer a {
+  color: snow;
+  text-shadow: 3px 3px 5px grey;
+}
+
+.column {
+  display: block;
+  margin-left: 100px;
+  width: 50%;
+  align-content: flex-start;
+}
+/* IMAGE GALLERY */
+.carousel-item {
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  img {
+    display: flex;
+    margin: auto 0;
+  }
+  nav {
+    line-height: 2;
+  }
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style-type: none;
+    display: grid;
+  }
+  p {
+    margin-bottom: 100px;
+  }
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: -webkit-box;
+  }
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+  footer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    display: block;
+    color: black;
+    text-shadow: 2px 2px 2px antiquewhite;
+    line-height: 2;
+  }
+  .column {
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    float: left;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 30px 25px 60px;
+    background-color: white;
+    margin-bottom: 100px;
+    display: contents;
+  }
+}
