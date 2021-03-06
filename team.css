@@ -46,6 +46,11 @@ span {
   text-align: center;
 }
 
+.tagline {
+  font-style: italic;
+  font-weight: 600;
+}
+
 footer {
   font-family: "Lato", sans-serif;
   background-image: url('images/moving_kitchenbox.jpg');
@@ -224,6 +229,7 @@ p {
     text-align: -webkit-center;
     font-size:23px;
   }
+
   footer {
     display: flex;
     text-align: center;
