@@ -172,10 +172,10 @@ p {
     display: block;
     text-align: center;
   }
-  .img1,
+  /* .img1,
   .img2 {
     width: 80%;
-  }
+  } */
   b {
     font-size: 20px;
   }
@@ -196,7 +196,7 @@ p {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1650px) {
-  .img1 {
+  /* .img1 {
     width: 50%;
     margin: auto;
     height: auto;
@@ -205,7 +205,7 @@ p {
     width: 50%;
     margin: auto;
     height: fit-content;
-  }
+  } */
   .container {
     display: flex;
     flex-direction: column;
