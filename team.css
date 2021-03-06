@@ -101,9 +101,20 @@ img {
   margin-bottom: 200px;
 }
 
-.img1 {
+/* .img1 {
   width: 20%;
+} */
+
+.img1 {
+  max-width:100%;
+  height:auto;
 }
+
+.img2 {
+  max-width:100%;
+  height:auto;
+}
+
 
 .container2 {
   display: flex;
@@ -112,9 +123,9 @@ img {
   margin-bottom: 200px;
 }
 
-.img2 {
+/* .img2 {
   width: 20%;
-}
+} */
 
 p {
   color: #808080;
@@ -193,7 +204,7 @@ p {
   .img2 {
     width: 50%;
     margin: auto;
-    height: 50%;
+    height: fit-content;
   }
   .container {
     display: flex;
