@@ -193,7 +193,7 @@ p {
   .img2 {
     width: 50%;
     margin: auto;
-    height: fit-content;
+    height: auto;
   }
   .container {
     display: flex;
