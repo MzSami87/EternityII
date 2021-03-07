@@ -2,13 +2,27 @@
   box-sizing: border-box;
 }
 
-html {
-  width: 100%;
+/* html {
+  height: auto;
+width: auto; 
   background-color: #cfffe5;
   background-image: url("../Eternity/images/landing_house.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.7;
+} */
+
+html { 
+  height: auto;
+  background-color: #cfffe5;
+  background-image: url(images/landing_house.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   opacity: 0.7;
 }
 
@@ -63,7 +77,7 @@ h3 {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
-  html {
+  /* html {
     height: auto;
     width: auto;
     background-color: #cfffe5;
@@ -73,7 +87,7 @@ h3 {
     background-position: center;
     opacity: 0.7;
     overflow: auto;
-  }
+  } */
   img {
     margin-top: 100px;
     width: 30;
@@ -86,8 +100,8 @@ h3 {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  html {
+@media screen and (min-width: 600px) {
+  /* html {
     height: 100%;
     width: auto;
     background-color: #cfffe5;
@@ -97,8 +111,9 @@ h3 {
     background-position: center;
     opacity: 0.7;
     overflow: auto;
-  }
+  } */
   img {
+    margin-top:300px;
     height: 300px;
     width: auto;
   }
