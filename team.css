@@ -45,11 +45,11 @@ p,
 span {
   text-align: center;
 }
-
+/* 
 .tagline {
   font-style: italic;
   font-weight: 600;
-}
+} */
 
 footer {
   font-family: "Lato", sans-serif;
@@ -216,6 +216,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 200px;
     text-align: center;
+    padding:50px;
   }
   .container2 {
     display: flex;
@@ -223,6 +224,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 200px;
     text-align: center;
+    padding:50px;
   }
   p {
     display: contents;
