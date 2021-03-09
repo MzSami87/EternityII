@@ -42,3 +42,13 @@ em a:hover {
     text-decoration: underline;
     transition: ease .75s;
 }
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: inline-block;
+    }
+    footer p {
+        display: inline;
+        margin: 10px;
+    }
+}
