@@ -1,12 +1,11 @@
 /* No CSS *//*# sourceMappingURL=reset.css.map */
 
-footer {
+/* footer {
     display: inline-block;
 }
 footer p {
-    display: inline;
-    margin: 10px;
-}
+    display:inline;
+} */
 footer a:hover {
     color: slategrey;
     font-weight: bold;
