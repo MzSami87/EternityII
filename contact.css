@@ -162,12 +162,13 @@ footer a {
     height:auto;
   }
   footer {
-    display: block;
+    display: inline-block;
     text-align: center;
     line-height: 1;
   }
   footer p {
-    display: inline-block;
+    display: inline;
+    margin: 5px;
   }
   .column {
     display: block;

@@ -7,7 +7,7 @@ body {
   background-image: url("images/landing_infinite.png");
   background-position: center;
   background-blend-mode:overlay;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size:contain;
   background-color: rgba(203, 236, 218, 1.2);
   margin: 0;
@@ -103,6 +103,7 @@ footer p {
 footer a {
   color: snow;
   text-shadow: 3px 3px 5px grey;
+  margin:20px;
 }
 
 .column {
@@ -138,13 +139,13 @@ footer a {
     margin-bottom: 100px;
   }
   footer {
-    display: flex;
+    display: inline-block;
     text-align: center;
     line-height: 1.25;
     width: 100%;
   }
   footer p {
-    display: inline-block;
+    display: inline;
   }
   .column {
     display: block;
