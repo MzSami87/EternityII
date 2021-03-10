@@ -157,6 +157,9 @@ footer a {
     display: inline;
     margin: 10px;
   }
+  footer a {
+    margin:10px;
+  }
   .column {
     display: block;
     margin: 0;
